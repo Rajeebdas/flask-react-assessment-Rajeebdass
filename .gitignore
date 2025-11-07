@@ -83,3 +83,31 @@ terraform/*.tfvars
 
 # environment file
 .env
+
+# Python virtual environments
+venv/
+venv_new/
+env/
+ENV/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+app.db
+
+# IDE and editor files
+.runlog.txt
+run_output.txt
+
+# Instance folder (Flask)
+instance/
+
+# Test files (if temporary)
+test_comments.py

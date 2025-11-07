@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.task-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-form, .edit-form {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.task-form input, .edit-form input,
+.task-form textarea, .edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-form button, .edit-form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.task-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.task-actions button {
+  background: #6c757d;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.comments-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.add-comment {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.add-comment input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-comment button {
+  background: #28a745;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-item {
+  background: #f8f9fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-comment {
+  background: #dc3545;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
