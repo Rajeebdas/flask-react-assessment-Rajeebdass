@@ -1,0 +1,43 @@
+================================================================================
+  PUSH TO GITHUB - FINAL STEPS
+================================================================================
+
+✓ Repository remote configured: github-user
+✓ Changes committed
+✓ Ready to push!
+
+Since GitHub requires a Personal Access Token (PAT), follow these steps:
+
+STEP 1: Create Personal Access Token
+-------------------------------------
+1. Open: https://github.com/settings/tokens/new
+2. Name: Flask React Project
+3. Check "repo" scope
+4. Click "Generate token"
+5. COPY THE TOKEN (you'll only see it once!)
+
+STEP 2: Create Repository on GitHub
+------------------------------------
+The browser should have opened to: https://github.com/new
+
+If not, go there manually and:
+- Repository name: flask-react-assessment-Rajeebdas
+- Choose: Public
+- DO NOT initialize with README, .gitignore, or license
+- Click "Create repository"
+
+STEP 3: Push Your Code
+-----------------------
+Run this command in PowerShell (replace YOUR_PAT with your token):
+
+  git push https://Rajeebdas:YOUR_PAT@github.com/Rajeebdas/flask-react-assessment-Rajeebdas.git main
+
+OR use the automated script:
+
+  .\push-to-github.ps1 -GitHubToken "YOUR_PAT"
+
+================================================================================
+Repository URL after pushing:
+https://github.com/Rajeebdas/flask-react-assessment-Rajeebdas
+================================================================================
+

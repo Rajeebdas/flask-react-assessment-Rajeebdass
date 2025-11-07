@@ -1,0 +1,43 @@
+═══════════════════════════════════════════════════════════════════════════════
+  SIMPLE STEPS TO PUSH TO GITHUB (5 minutes)
+═══════════════════════════════════════════════════════════════════════════════
+
+GitHub no longer accepts passwords. You need a Personal Access Token (PAT).
+
+STEP 1: CREATE PERSONAL ACCESS TOKEN (2 minutes)
+─────────────────────────────────────────────────
+✓ Browser should have opened to: https://github.com/settings/tokens/new
+
+If not, go there manually.
+
+1. Token name: Type "Flask React Project"
+2. Expiration: Choose "90 days" (or your preference)
+3. Scopes: Check the box "repo" (this gives full repository access)
+4. Click "Generate token" (green button at bottom)
+5. COPY THE TOKEN (starts with "ghp_") - You'll only see it once!
+
+STEP 2: RUN THIS COMMAND (1 minute)
+────────────────────────────────────
+Open PowerShell in this folder and run:
+
+    .\CREATE_AND_PUSH.ps1 -Token "PASTE_YOUR_TOKEN_HERE"
+
+Replace "PASTE_YOUR_TOKEN_HERE" with the token you copied.
+
+That's it! Your code will be pushed to:
+    https://github.com/Rajeebdas/flask-react-assessment-Rajeebdas
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALTERNATIVE: If you prefer manual steps
+────────────────────────────────────────
+1. Create repo: https://github.com/new
+   - Name: flask-react-assessment-Rajeebdas
+   - Public
+   - Don't initialize
+
+2. Push code:
+   git push https://Rajeebdas:YOUR_TOKEN@github.com/Rajeebdas/flask-react-assessment-Rajeebdas.git main
+
+═══════════════════════════════════════════════════════════════════════════════
+
